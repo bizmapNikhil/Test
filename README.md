@@ -1,7 +1,6 @@
-# Biometric Attendance Sync Tool <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
+# Edmire.ai <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
 
-Python Scripts to poll your biometric attendance system _(BAS)_ for logs and sync with your ERPNext instance
-
+A tool that helps to grow the business in Education Sector.
 
 ## Table of Contents
  - [Pre-requisites](#pre-requisites)
