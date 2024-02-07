@@ -1,4 +1,4 @@
-# Edmire.ai <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
+## Edmire.ai <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
 
 A tool that helps to grow the business in Education Sector.
 
@@ -20,15 +20,11 @@ A tool that helps to grow the business in Education Sector.
 
 
 ## Introduction
-There's two ways you can use this tool. If accessing the CLI is a bit of a pain for you, the GUI has a simple form to guide you through the process.
 
-Under [/releases](https://github.com/frappe/biometric-attendance-sync-tool/releases), for a particular release download the `biometric-attendance-sync-tool-[version]-[distribution].zip` and unzip it's contents. Now from the location of the unzipped files, you can go ahead with the CLI or GUI method.
+##Welcome to Edmire.ai
+Edmire.ai is a cutting-edge Education Management System, meticulously crafted to enhance the administrative and academic processes of educational institutions. Inspired by the principles of open-source innovation, our platform is built on the robust ERPNext software foundation, ensuring reliability and flexibility.
 
-### GUI
-Run the `attendance-sync` file from the folder; This should setup all it's dependencies automatically and start the GUI.
-
-### CLI
-The `erpnext_sync.py` file is the "backbone" of this project. Apart from Windows _(which has its own wrapper `erpnext_sync_win.py`)_, this file can be directly used to set up the sync tool. Further information provided in the [/Wiki](https://github.com/frappe/biometric-attendance-sync-tool/wiki).
+Our vision at Edmire.ai is to revolutionize education management, offering a bespoke and user-friendly solution. We aim to simplify and streamline processes, making them more efficient for educational institutions. With a powerful module that inherits the strengths of the ERPNext framework, Edmire.ai provides a solid foundation tailored to meet the unique needs of your institution.
 
 
 ## Setup Specifications (For CLI)
