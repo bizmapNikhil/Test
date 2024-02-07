@@ -1,4 +1,4 @@
-## Edmire.ai <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
+# Edmire.ai <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
 
 A tool that helps to grow the business in Education Sector.
 
@@ -19,7 +19,7 @@ A tool that helps to grow the business in Education Sector.
 * Python 3.6+
 
 
-## Introduction
+# Introduction
 
 ##Welcome to Edmire.ai
 Edmire.ai is a cutting-edge Education Management System, meticulously crafted to enhance the administrative and academic processes of educational institutions. Inspired by the principles of open-source innovation, our platform is built on the robust ERPNext software foundation, ensuring reliability and flexibility.
