@@ -35,12 +35,26 @@ Our vision at Edmire.ai is to revolutionize education management, offering a bes
 ## Key-Features
 
 ### Administration
+Edmire.ai empowers administrators with a suite of tools to efficiently manage various administrative tasks, reducing manual intervention and enhancing overall operational efficiency. From staff management to resource allocation, Edmire.ai ensures streamlined administrative processes.
+
 ### Admission Registration
+Simplify and expedite the student admission process with Edmire.ai. Our module streamlines the admission registration process, capturing accurate and up-to-date information. Define admission criteria and seamlessly manage the entire admission workflow.
+
 ### Academic Management
+Edmire.ai caters to the needs of educators by providing robust tools for managing courses, curriculum, and student information. It fosters a structured and effective learning environment, promoting academic excellence.
+
 ### Examination Planning
+Effortlessly plan and organize examinations with Edmire.ai. From scheduling exams to creating question paper sets and managing seating arrangements, our module ensures a comprehensive solution for all your examination planning needs.
+
 ### Examination Registration
+Streamline the student registration process for examinations using Edmire.ai. Capture crucial information and generate admit cards based on predefined criteria, ensuring a smooth and organized examination registration process.
+
 ### Secure and Fair Evaluation
+ Edmire.ai places a premium on the integrity of the examination process. Benefit from features designed for secure paper setting, digital evaluation, and result processing, ensuring a fair and reliable assessment system.
+ 
 ### User-Friendly Interface
+ Prioritizing user experience, Edmire.ai offers an intuitive interface for educators, students, and administrators. Simple navigation enhances accessibility, enabling users to effortlessly access the information and tools they need for a seamless experience.
+
 1. Setup dependencies
     ```
     cd biometric-attendance-sync-tool
