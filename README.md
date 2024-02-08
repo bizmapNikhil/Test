@@ -6,8 +6,13 @@ A tool that helps to grow the business in Education Sector.
  - [Pre-requisites](#pre-requisites)
  - [Introduction](#introduction)
  - [Key-Features](#Key-Features)
-    - [UNIX](#unix)
-    - [Windows](#windows)
+    - [Administration](#Administration)
+    - [Admission Registration](#Admission-Registration)
+    - [Academic Management](#Academic-Management)
+    - [Examination Planning](#Examination-Planning)
+    - [Examination Registration](#Examination-Registration)
+    - [Secure and Fair Evaluation](#Secure-and-Fair-Evaluation)
+    - [User-Friendly Interface](#User-Friendly-Interface)
   - [Setting Up Config](#setting-up-config)
   - [Resources](#resources)
   - [License](#license)
@@ -29,6 +34,13 @@ Our vision at Edmire.ai is to revolutionize education management, offering a bes
 
 ## Key-Features
 
+### Administration
+### Admission Registration
+### Academic Management
+### Examination Planning
+### Examination Registration
+### Secure and Fair Evaluation
+### User-Friendly Interface
 1. Setup dependencies
     ```
     cd biometric-attendance-sync-tool
