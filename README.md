@@ -5,9 +5,7 @@ A tool that helps to grow the business in Education Sector.
 ## Table of Contents
  - [Pre-requisites](#pre-requisites)
  - [Introduction](#introduction)
-    - [GUI](#gui)
-    - [CLI](#cli)
- - [Setup Specifications](#setup-specifications-(for-cli))
+ - [Key-Features](#Key-Features)
     - [UNIX](#unix)
     - [Windows](#windows)
   - [Setting Up Config](#setting-up-config)
@@ -29,7 +27,7 @@ Edmire.ai is a cutting-edge Education Management System, meticulously crafted to
 Our vision at Edmire.ai is to revolutionize education management, offering a bespoke and user-friendly solution. We aim to simplify and streamline processes, making them more efficient for educational institutions. With a powerful module that inherits the strengths of the ERPNext framework, Edmire.ai provides a solid foundation tailored to meet the unique needs of your institution.
 
 
-## Setup Specifications (For CLI)
+## Key-Features
 
 1. Setup dependencies
     ```
