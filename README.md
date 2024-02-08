@@ -1,6 +1,6 @@
 # Edmire.ai <span style="font-size: 0.6em; font-style: italic">(For ERPNext)</span>
 
-A tool that helps to grow the business in Education Sector.
+ Elevating Education Management with ERPNext Excellence.
 
 ## Table of Contents
  - [Pre-requisites](#pre-requisites)
@@ -13,7 +13,7 @@ A tool that helps to grow the business in Education Sector.
     - [Examination Registration](#Examination-Registration)
     - [Secure and Fair Evaluation](#Secure-and-Fair-Evaluation)
     - [User-Friendly Interface](#User-Friendly-Interface)
-  - [Setting Up Config](#setting-up-config)
+  - [Installation](#Installation)
   - [Resources](#resources)
   - [License](#license)
 
@@ -62,36 +62,8 @@ Streamline the student registration process for examinations using Edmire.ai. Ca
       && source venv/bin/activate
       && pip install -r requirements.txt
     ```
-2. Setup `local_config.py`
 
-   Make a copy of and rename `local_config.py.template` file. [Learn More](#setting-up-config)
-
-3. Run this script using `python3 erpnext_sync.py`
-
-### UNIX
-
-There's a [Wiki](https://github.com/frappe/biometric-attendance-sync-tool/wiki/Running-this-script-in-production) for this.
-
-### Windows
-
-Installing as a Windows service
-
-1. Install pywin32 using `pip install pywin32`
-2. Got to this repository's Directory
-3. Install the windows service using `python erpnext_sync_win.py install`
-4. Done
-
-#### Update the installed windows service
-    python erpnext_sync_win.py update
-
-#### Stop the windows service
-    net stop ERPNextBiometricPushService
-
-#### To see the status of the service
-    mmc Services.msc
-
-
-## Setting up config
+## Installation
 - You need to make a copy of `local_config.py.template` file and rename it to `local_config.py`
 - Please fill in the relevant sections in this file as per the comments in it.
 - Below are the delineation of the keys contained in `local_config.py`:
