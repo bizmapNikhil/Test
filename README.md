@@ -55,13 +55,6 @@ Streamline the student registration process for examinations using Edmire.ai. Ca
 ### User-Friendly Interface
  Prioritizing user experience, Edmire.ai offers an intuitive interface for educators, students, and administrators. Simple navigation enhances accessibility, enabling users to effortlessly access the information and tools they need for a seamless experience.
 
-1. Setup dependencies
-    ```
-    cd biometric-attendance-sync-tool
-      && python3 -m venv venv
-      && source venv/bin/activate
-      && pip install -r requirements.txt
-    ```
 
 ## Installation
 
@@ -69,9 +62,13 @@ Streamline the student registration process for examinations using Edmire.ai. Ca
 2. After installing frappe bench Install ERPNext
 3. After installing the frappe and erpnext then install the Education app
 4. Once the Frappe bench, ERPNext and Education is installed, install the Edmire.ai App by using  
-        ```  $bench get-app edmire.ai  ```
-5. After that you can install the Edmire.ai app on the required site by running
-        ```   $ bench –site sitename install-app edmire.a ```
+        ```
+               $bench get-app edmire.ai
+        ```
+6. After that you can install the Edmire.ai app on the required site by running
+        ```
+              $ bench –site sitename install-app edmire.a
+        ```
 
 
 
