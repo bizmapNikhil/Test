@@ -62,13 +62,15 @@ Streamline the student registration process for examinations using Edmire.ai. Ca
 2. After installing frappe bench Install ERPNext
 3. After installing the frappe and erpnext then install the Education app
 4. Once the Frappe bench, ERPNext and Education is installed, install the Edmire.ai App by using  
-        ```
-               $bench get-app edmire.ai
-        ```
+      
+   ```
+    $ bench get-app edmire.ai
+    ```
 6. After that you can install the Edmire.ai app on the required site by running
-        ```
-              $ bench –site sitename install-app edmire.a
-        ```
+       
+   ```
+    $ bench –site sitename install-app edmire.a
+    ```
 
 
 
