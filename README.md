@@ -64,45 +64,16 @@ Streamline the student registration process for examinations using Edmire.ai. Ca
     ```
 
 ## Installation
-- You need to make a copy of `local_config.py.template` file and rename it to `local_config.py`
-- Please fill in the relevant sections in this file as per the comments in it.
-- Below are the delineation of the keys contained in `local_config.py`:
-  - ERPNext connection configs:
-    - `ERPNEXT_API_KEY`: The API Key of the ERPNext User
-    - `ERPNEXT_API_SECRET`: The API Secret of the ERPNext User
 
-      > Please refer to [this link](https://frappe.io/docs/user/en/guides/integration/how_to_set_up_token_based_auth#generate-a-token) to learn how to generate API key and secret for a user in ERPNext.
-      > The ERPNext User who's API key and secret is used, needs to have at least the following permissions:
-      > 1. Create Permissions for 'Employee Checkin' DocType.
-      > 2. Write Permissions for 'Shift Type' DocType.
+1. Install Frappe bench on your local machine 
+2. After installing frappe bench Install ERPNext
+3. After installing the frappe and erpnext then install the Education app
+4. Once the Frappe bench, ERPNext and Education is installed, install the Edmire.ai App by using  
+        ```  $bench get-app edmire.ai  ```
+5. After that you can install the Edmire.ai app on the required site by running
+        ```   $ bench –site sitename install-app edmire.a ```
 
-    - `ERPNEXT_URL`: The web address at which you would access your ERPNext. eg:`'https://yourcompany.erpnext.com'`, `'https://erp.yourcompany.com'`
-    - `ERPNEXT_VERSION`: The base version of your ERPNext app. eg: 12, 13, 14
-  - This script's operational configs:
-    - `PULL_FREQUENCY`: The time in minutes after which a pull for punches from the biometric device and push to ERPNext is attempted again.
-    - `LOGS_DIRECTORY`: The Directory in which the logs related to this script's whereabouts are stored.
-      > Hint: For most cases you can leave the above two keys unchanged.
-    - `IMPORT_START_DATE`: The date after which the punches are pushed to ERPNext. Expected Format: `YYYYMMDD`.
-      > For some cases you would have a lot of old punches in the biometric device. But, you would want to only import punches after certain date. You could set this key appropriately. Also, you can leave this as `None` if this case does not apply to you.
 
-> TODO: fill this section with more info to help Non-Technical Individuals.
-
-## To build executable file for GUI
-### Linux and Windows:
-1. Activate virtual environment.
-1. Navigate to the repository folder (where `gui.py` located) by
-    ```
-    cd biometric-attendance-sync-tool
-    ```
-1. Run the following commands:
-    ```
-    pip install pyinstaller
-    ```
-
-    ```
-    python -m PyInstaller --name="attendance-sync" --windowed --onefile gui.py
-    ```
-1. The executable file `attendance-sync` created inside `dist/` folder.
 
 ### Resources
 
