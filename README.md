@@ -69,15 +69,15 @@ Streamline the student registration process for examinations using Edmire.ai. Ca
 6. After that you can install the Edmire.ai app on the required site by running
        
    ```
-    $ bench –site sitename install-app edmire.a
+    $ bench –site sitename install-app edmire.ai
     ```
 
 
 
 ### Resources
 
-* Article on [ERPNext Documentation](https://docs.erpnext.com/docs/user/manual/en/setting-up/articles/integrating-erpnext-with-biometric-attendance-devices).
-* This Repo's [/Wiki](https://github.com/frappe/biometric-attendance-sync-tool/wiki).
+* Article on [Documentation](https://docs.erpnext.com/docs/user/manual/en/setting-up/articles/integrating-erpnext-with-biometric-attendance-devices).
+* This Repo's [/Wiki](https://github.com/bizmapNikhil/Test/wiki).
 
 ### License
 
